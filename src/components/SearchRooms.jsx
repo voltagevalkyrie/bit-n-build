@@ -13,8 +13,8 @@ const SearchRooms = () => {
     <div className="p-2">
       <div className="m-4 mx-auto p-4 px-20 rounded-xl bg-[#fcf2dd]  w-fit flex flex-col md:flex-row justify-center gap-10 items-center">
         <div>
-          <span>Packages</span>
-          <h3 className="text-4xl">Treat Yourself</h3>
+          <span> </span>
+          <h3 className="text-4xl">Discover & Explore </h3>
         </div>
         {/* <RoomComponents Roomtitle={'Room'} RoomOption={['All', 'Single', 'Double', 'Family', 'Presidential']}/> */}
         {/* <RoomPrice title={'Price Per Night'}/> */}

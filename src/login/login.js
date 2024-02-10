@@ -9,6 +9,7 @@ import SingleHotelView from "./page/SingleHotelView";
 import GlobleCotext from "./contextApi/GlobleContex";
 import ProtectedRoute from "./pr/pr";
 import Cookie from 'js-cookie';
+import React from 'react';
 
 function App() {
   const token = Cookie.get('login');
