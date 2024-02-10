@@ -10,51 +10,51 @@ const Footer = () => {
             <div className="flex h-full flex-col justify-between">
               <div className="mb-4 inline-flex items-center w-20 md:w-30">
                 <img src={logo} alt="logo" />
-                <span className="ml-4 text-lg font-bold">Hotel Mome</span>
+                <span className="ml-4 text-lg font-bold">joinportalpro</span>
               </div>
               <div>
                 <p className="mb-4  text-base font-medium">
-                Made with ❤️ by Jaimin Patel
+             Made with love by team data dominators
                 </p>
                 <p className="text-sm">
-                  &copy; Copyright 2022. All Rights Reserved by Hotel Momo.
+                  &copy; Copyright 2024. All Rights Reserved by data dominators 
                 </p>
               </div>
             </div>
           </div>
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
             <div className="h-full">
-              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase">
+              {/* <h3 className="tracking-px mb-9  text-xs font-semibold uppercase">
                 Company
-              </h3>
-              <ul>
+              </h3> */}
+              {/* <ul>
                 <li className="mb-4">Features</li>
                 <li className="mb-4">Pricing</li>
                 <li className="mb-4">Affiliate Program</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
             <div className="h-full">
               <h3 className="tracking-px mb-9  text-xs font-semibold uppercase ">
-                Support
+                {/* Support */}
               </h3>
-              <ul>
+              {/* <ul>
                 <li className="mb-4">Account</li>
                 <li className="mb-4">Help</li>
                 <li className="mb-4">Contact Us</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className="w-full p-6 md:w-1/2 lg:w-3/12">
             <div className="h-full">
-              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase ">
+              {/* <h3 className="tracking-px mb-9  text-xs font-semibold uppercase ">
                 Legals
-              </h3>
+              </h3> */}
               <ul>
                 <li className="mb-4">Terms &amp; Conditions</li>
                 <li className="mb-4">Privacy Policy</li>
-                <li>Licensing</li>
+                {/* <li>Licensing</li> */}
               </ul>
             </div>
           </div>

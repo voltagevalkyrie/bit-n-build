@@ -16,9 +16,9 @@ const SearchRooms = () => {
           <span>Packages</span>
           <h3 className="text-4xl">Treat Yourself</h3>
         </div>
-        <RoomComponents Roomtitle={'Room'} RoomOption={['All', 'Single', 'Double', 'Family', 'Presidential']}/>
-        <RoomPrice title={'Price Per Night'}/>
-        <GuestsComponenet title={'Guests'} option={[1, 2, 3, 4]}/>
+        {/* <RoomComponents Roomtitle={'Room'} RoomOption={['All', 'Single', 'Double', 'Family', 'Presidential']}/> */}
+        {/* <RoomPrice title={'Price Per Night'}/> */}
+        {/* <GuestsComponenet title={'Guests'} option={[1, 2, 3, 4]}/> */}
       </div>
     </div>
   );
@@ -31,25 +31,25 @@ export default SearchRooms;
      console.log(value)
     return value;
  }
-const valuetext = value => value;
+// const valuetext = value => value;
 
-function RoomPrice({title}) {
-  const { PriceRange, setPriceRange } = useContext(Contex)
-  const handleChange = event => setPriceRange(event.target.value) ;
-    return (
-      <Box className="min-w-[8rem]">
-        <label for="RoomPrice">{title}</label>
-        <Slider
-          value={PriceRange}
-          onChange={handleChange}
-          valueLabelDisplay="auto"
-          step={1000}
-          min={1000}
-          max={10000}
-        />
-      </Box>
-    );
-}
+// function RoomPrice({title}) {
+//   const { PriceRange, setPriceRange } = useContext(Contex)
+//   const handleChange = event => setPriceRange(event.target.value) ;
+//     return (
+//       <Box className="min-w-[8rem]">
+//         <label for="RoomPrice">{title}</label>
+//         <Slider
+//           value={PriceRange}
+//           onChange={handleChange}
+//           valueLabelDisplay="auto"
+//           step={1000}
+//           min={1000}
+//           max={10000}
+//         />
+//       </Box>
+//     );
+// }
 
 
 
