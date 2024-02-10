@@ -1,5 +1,5 @@
 import Showcase from "./Showcase";
-import { HotelDetail } from "../Detail/HotelDetail";
+import { HotelDetail } from "../Detail/PortalDetail";
 import WrapperContainer from "./WrapperContainer";
 
 const PackageDetail = () => {

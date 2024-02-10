@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Navigation, Pagination, Autoplay } from 'swiper';
-import { HotelDetail } from '../Detail/HotelDetail';
+import { HotelDetail } from '../Detail/PortalDetail';
 
 const SliderCarousel = () => {
   return (

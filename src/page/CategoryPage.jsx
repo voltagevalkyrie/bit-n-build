@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { HotelDetail, HotelRoomDetail } from '../Detail/HotelDetail'
+import { HotelDetail, HotelRoomDetail } from '../Detail/PortalDetail'
 import { Card } from '../components/Slider'
 import WrapperContainer from '../components/WrapperContainer'
 import SearchRooms from '../components/SearchRooms'

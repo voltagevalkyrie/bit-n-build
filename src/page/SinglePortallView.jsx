@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import WrapperContainer from "../components/WrapperContainer";
 import { useParams } from "react-router-dom";
-import { HotelRoomDetail } from "../Detail/HotelDetail";
+import { HotelRoomDetail } from "../Detail/PortalDetail";
 
 const SingleHotelView = () => {
   const { id } = useParams();

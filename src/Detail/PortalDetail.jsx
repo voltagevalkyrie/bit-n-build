@@ -13,7 +13,7 @@ import image11 from '../assets/showcase122.jpg'
 
 
 
-export const HotelDetail =[
+export const PortalDetail =[
     {
         id: 1,
         image: image1,
@@ -102,7 +102,7 @@ export const HotelDetail =[
 ]
 
 
-export const HotelRoomDetail = [
+export const PortalEventsDetail = [
   {
       id: 6,
       name: "Profiles and Achievements",
@@ -110,8 +110,6 @@ export const HotelRoomDetail = [
       type: "View your Participations",
       price: 50,
       capacity: 5,
-      pets: false,
-      breakfast: true,
       featured: true,
       images: image7,
       description:
@@ -127,8 +125,6 @@ export const HotelRoomDetail = [
       type: "View your schedules",
       price: 40,
       capacity: 4,
-      pets: false,
-      breakfast: true,
       featured: true,
       images: image8,
       description:
@@ -143,8 +139,6 @@ export const HotelRoomDetail = [
       type: "View Your Ranks",
       price: 50,
       capacity: 5,
-      pets: true,
-      breakfast: true,
       featured: true,
       images: image9,
       description:
@@ -159,8 +153,6 @@ export const HotelRoomDetail = [
       type: "Only for Club Members",
       price: 100,
       capacity: 10,
-      pets: false,
-      breakfast: true,
       featured: false,
       images: image10,
       description:
@@ -175,8 +167,6 @@ export const HotelRoomDetail = [
     type: "View what suits you best",
     price: 50,
     capacity: 5,
-    pets: false,
-    breakfast: true,
     featured: true,
     images: image11,
     description:
