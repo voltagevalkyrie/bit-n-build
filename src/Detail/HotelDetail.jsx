@@ -89,7 +89,7 @@ export const HotelDetail =[
         title: 'Tedx UVCE',
         desc: (
           <p>
-            Event type: Informational <br />
+            Event type: Informational talks <br />
             Date: Sat 10/02/2024 <br />
             Time: 06p.m. - 08 p.m. <br />
             Mode: Online

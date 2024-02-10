@@ -27,8 +27,10 @@ const PackageDetail = () => {
         {HotelDetail.map((detail) => (
           <Showcase
             img={detail.image}
+            time={detail.time}
             title={detail.title}
             desc={detail.desc}
+            // desc1={deatail.desc}
             button={detail.button}
           />
         ))}
