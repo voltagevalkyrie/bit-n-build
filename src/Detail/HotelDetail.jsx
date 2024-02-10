@@ -10,14 +10,20 @@ import image9 from '../assets/showcase9.jpg'
 import image10 from '../assets/showcase10.jpg'
 
 
-const sentences = HotelDetail.desc.split('. ');
 
 export const HotelDetail =[
     {
         id: 1,
         image: image1,
-        title: 'Ncode',
-        desc: 'Event type: Tech. \n Date: Sat 10/02/2024\n Time: 06p.m. - 08 p.m./n Mode: Online',
+        title: 'Ncode',desc: (
+          <p>
+            Event type: Tech. <br />
+            Date: Sat 10/02/2024 <br />
+            Time: 06p.m. - 08 p.m. <br />
+            Mode: Online
+          </p>
+        ),
+        duration:'2 hours',
         button: 'Register Now'
         
       },
@@ -25,35 +31,70 @@ export const HotelDetail =[
         id: 2,
         image: image2,
         title: 'Code Fury',
-        desc: 'Event type: Tech Hackathon. \n Date: 23/09/2024\n Time: 08:30a.m.- 24th 08:30a.m./n Mode: Online',
+        desc: (
+          <p>
+            Event type: Tech. <br />
+            Date: Sat 5/05/2024 <br />
+            Time: 24 hours  <br />
+            Mode: Online
+          </p>
+        ),
         button: 'Register Now'
       },
       {
         id: 3,
         image: image3,
         title: 'Fiesta ',
-        desc: 'Event type: Cultural. \n Date: Sat 11/05/2024\n Time: 09a.m. - 08 p.m./n Mode: Offline',
-        button: 'Book Now'
+        desc: (
+          <p>
+            Event type: Fun  <br />
+            Date:  10/05/2024 <br />
+            Time: 8AM to 8PM<br />
+            Mode: offline 
+          </p>
+        ),
+        button: 'Register Now'
       },
       {
         id: 4,
         image: image4,
-        title: 'Impetus - The Annual Tech Fest',
-        desc: 'Event type: Tech. \n Date: Sat 31/03/2024 and 01/04/2024\n Time: 10a.m. - 04 p.m./n Mode: Hybrid',
+        title: 'Impetus ',
+        desc: (
+          <p>
+            Event type: Tech. <br />
+            Date: Sat 10/02/2024 <br />
+             <br />
+            Mode: Online
+          </p>
+        ),
         button: 'Register Now'
       },
       {
         id: 5,
         image: image5,
-        title: 'Kagada',
-        desc: 'Event type: Tech. \n Date: Sat 18/11/2024\n Time: 10a.m. - 02 p.m./n Mode: Offline',
+        title: 'kagada',
+        desc: (
+          <p>
+            Event type: Art and Craft  <br />
+            Date: 10/02/2024 <br />
+            Time: 06p.m. - 08 p.m. <br />
+            Mode: offline 
+          </p>
+        ),
         button: 'Register Now'
       },
       {
         id: 6,
         image: image6,
-        title: 'The Greater Good@Tedx',
-        desc: 'Event type: Alumni talks. \n Date: Sat 12/04/2024\n Time: 11a.m. - 01 p.m./n Mode: Offline',
+        title: 'Tedx UVCE',
+        desc: (
+          <p>
+            Event type: Informational <br />
+            Date: Sat 10/02/2024 <br />
+            Time: 06p.m. - 08 p.m. <br />
+            Mode: Online
+          </p>
+        ),
         button: 'Register Now'
       },
 ]
