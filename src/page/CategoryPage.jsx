@@ -14,12 +14,7 @@ const CategoryPage = () => {
   if (Room !== '' && Room !== 'All') {
     detail = HotelRoomDetail.filter(item => item.type === Room);
    }
-  // if (Guest !== '') {
-  //   detail = detail.filter(item => item.capacity === Guest);
-  // }
-  // if (PriceRange !== '') {
-  //   detail = detail.filter(item => item.price === PriceRange);
-  // }
+ 
 
   return (
     <div className="bg-[#d27548]">

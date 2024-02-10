@@ -24,37 +24,19 @@ const Footer = () => {
           </div>
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
             <div className="h-full">
-              {/* <h3 className="tracking-px mb-9  text-xs font-semibold uppercase">
-                Company
-              </h3> */}
-              {/* <ul>
-                <li className="mb-4">Features</li>
-                <li className="mb-4">Pricing</li>
-                <li className="mb-4">Affiliate Program</li>
-              </ul> */}
+             
             </div>
           </div>
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
             <div className="h-full">
-              <h3 className="tracking-px mb-9  text-xs font-semibold uppercase ">
-                {/* Support */}
-              </h3>
-              {/* <ul>
-                <li className="mb-4">Account</li>
-                <li className="mb-4">Help</li>
-                <li className="mb-4">Contact Us</li>
-              </ul> */}
+               
             </div>
           </div>
           <div className="w-full p-6 md:w-1/2 lg:w-3/12">
             <div className="h-full">
-              {/* <h3 className="tracking-px mb-9  text-xs font-semibold uppercase ">
-                Legals
-              </h3> */}
               <ul>
                 <li className="mb-4">Terms &amp; Conditions</li>
                 <li className="mb-4">Privacy Policy</li>
-                {/* <li>Licensing</li> */}
               </ul>
             </div>
           </div>
