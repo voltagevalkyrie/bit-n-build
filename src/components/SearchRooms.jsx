@@ -16,9 +16,6 @@ const SearchRooms = () => {
           <span>Packages</span>
           <h3 className="text-4xl">Treat Yourself</h3>
         </div>
-        <RoomComponents Roomtitle={'Room'} RoomOption={['All', 'Single', 'Double', 'Family', 'Presidential']}/>
-        <RoomPrice title={'Price Per Night'}/>
-        <GuestsComponenet title={'Guests'} option={[1, 2, 3, 4]}/>
       </div>
     </div>
   );
@@ -39,14 +36,7 @@ function RoomPrice({title}) {
     return (
       <Box className="min-w-[8rem]">
         <label for="RoomPrice">{title}</label>
-        <Slider
-          value={PriceRange}
-          onChange={handleChange}
-          valueLabelDisplay="auto"
-          step={1000}
-          min={1000}
-          max={10000}
-        />
+        
       </Box>
     );
 }
