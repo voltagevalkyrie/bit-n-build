@@ -16,6 +16,9 @@ const SearchRooms = () => {
           <span>Packages</span>
           <h3 className="text-4xl">Treat Yourself</h3>
         </div>
+        <RoomComponents Roomtitle={'Room'} RoomOption={['All', 'Single', 'Double', 'Family', 'Presidential']}/>
+        <RoomPrice title={'Price Per Night'}/>
+        <GuestsComponenet title={'Guests'} option={[1, 2, 3, 4]}/>
       </div>
     </div>
   );
@@ -24,10 +27,10 @@ const SearchRooms = () => {
 export default SearchRooms;
 
 
-// function valuetext(value) {
-//     console.log(value)
-//     return value;
-// }
+ function valuetext(value) {
+     console.log(value)
+    return value;
+ }
 const valuetext = value => value;
 
 function RoomPrice({title}) {
@@ -36,10 +39,19 @@ function RoomPrice({title}) {
     return (
       <Box className="min-w-[8rem]">
         <label for="RoomPrice">{title}</label>
-        
+        <Slider
+          value={PriceRange}
+          onChange={handleChange}
+          valueLabelDisplay="auto"
+          step={1000}
+          min={1000}
+          max={10000}
+        />
       </Box>
     );
 }
+
+
 
 function GuestsComponenet({ title, option }) {
   const {Guest, setGuest} = useContext(Contex)
