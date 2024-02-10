@@ -22,24 +22,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-full p-6 md:w-1/2 lg:w-2/12">
-            <div className="h-full">
-             
-            </div>
-          </div>
-          <div className="w-full p-6 md:w-1/2 lg:w-2/12">
-            <div className="h-full">
-               
-            </div>
-          </div>
-          <div className="w-full p-6 md:w-1/2 lg:w-3/12">
-            <div className="h-full">
-              <ul>
-                <li className="mb-4">Terms &amp; Conditions</li>
-                <li className="mb-4">Privacy Policy</li>
-              </ul>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>

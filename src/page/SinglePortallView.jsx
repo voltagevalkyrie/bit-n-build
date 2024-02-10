@@ -1,63 +1,63 @@
 import React, { useEffect, useState } from "react";
 import WrapperContainer from "../components/WrapperContainer";
 import { useParams } from "react-router-dom";
-import { HotelRoomDetail } from "../Detail/PortalDetail";
+import { PortalEventsDetail, PortalEventsDetailDetail } from "../Detail/PortalDetail";
 
-const SingleHotelView = () => {
+const SinglePortalView = () => {
   const { id } = useParams();
-  const [hotelDetail, setHotelDetail] = useState([]);
+  const [PortalDetail, setPortalDetail] = useState([]);
 
   useEffect(() => {
-    const arrayDetail = [...HotelRoomDetail];
-    const hotelDetailFilter = arrayDetail.filter((detail) => detail.id === +id);
-    setHotelDetail(hotelDetailFilter);
+    const arrayDetail = [...PortalEventsDetail];
+    const PortalDetailFilter = arrayDetail.filter((detail) => detail.id === +id);
+    setHotelDetail(PortalDetailFilter);
   }, [id]);
 
-  if (hotelDetail.length === 0) {
+  if (PortalDetail.length === 0) {
     return null; // or a loading indicator
   }
 
-  const { images, capacity, name, description, type, price, extras } = hotelDetail[0];
+  const { images, capacity, name, description, type, price, extras } = PortalDetail[0];
 
   let extraFeatureComponent;
 
-  // Customize features based on the hotel id
+  // Customize features based on the Portal id
   switch (id) {
     case '6':
-      // Code block for Hotel ID 1
-      console.log('Executing extra code for Hotel ID 1');
-      // Add your specific logic for Hotel ID 1
+      // Code block for Portal ID 1
+      console.log('Executing extra code for Portal ID 1');
+      // Add your specific logic for Portal ID 1
       break;
   
     case '7':
-      // Code block for Hotel ID 2
-      console.log('Executing extra code for Hotel ID 2');
-      // Add your specific logic for Hotel ID 2
+      // Code block for Portal ID 2
+      console.log('Executing extra code for Portal ID 2');
+      // Add your specific logic for Portal ID 2
       break;
   
       case '8':
-      // Code block for Hotel ID 1
-      console.log('Executing extra code for Hotel ID 1');
-      // Add your specific logic for Hotel ID 1
+      // Code block for Portal ID 1
+      console.log('Executing extra code for Portal ID 1');
+      // Add your specific logic for Portal ID 1
       break;
 
       case '9':
-      // Code block for Hotel ID 1
-      console.log('Executing extra code for Hotel ID 1');
-      // Add your specific logic for Hotel ID 1
+      // Code block for Portal ID 1
+      console.log('Executing extra code for Portal ID 1');
+      // Add your specific logic for Portal ID 1
       break;
 
       case '10':
-      // Code block for Hotel ID 1
-      console.log('Executing extra code for Hotel ID 1');
-      // Add your specific logic for Hotel ID 1
+      // Code block for Portal ID 1
+      console.log('Executing extra code for Portal ID 1');
+      // Add your specific logic for Portal ID 1
       break;
 
-    // Add more cases for other hotel IDs as needed
+    // Add more cases for other Portal IDs as needed
   
     default:
-      // Code block for other hotel IDs or a default case
-      console.log('No extra code for this hotel ID');
+      // Code block for other Portal IDs or a default case
+      console.log('No extra code for this Portal ID');
       // Add your default logic or leave it empty
       break;
   }
@@ -99,4 +99,4 @@ const SingleHotelView = () => {
   );
 };
 
-export default SingleHotelView;
+export default SinglePortalView;

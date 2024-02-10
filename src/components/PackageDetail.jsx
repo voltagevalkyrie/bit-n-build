@@ -1,5 +1,5 @@
 import Showcase from "./Showcase";
-import { HotelDetail } from "../Detail/PortalDetail";
+import { PortalDetail } from "../Detail/PortalDetail";
 import WrapperContainer from "./WrapperContainer";
 
 const PackageDetail = () => {
@@ -25,7 +25,7 @@ const PackageDetail = () => {
         id="showcase-Section"
         className="container m-auto flex flex-wrap flex-col md:flex-row justify-between items-center"
       >
-        {HotelDetail.map((detail) => (
+        {PortalDetail.map((detail) => (
           <Showcase
             img={detail.image}
             time={detail.time}

@@ -1,4 +1,4 @@
-import image from '../assets/christian-lambert-vmIWr0NnpCQ-unsplash.jpg'
+import image from '../assets/karaokedanceparty.jpg'
 
 export function HeroSection() {
   return (
