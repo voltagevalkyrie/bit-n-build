@@ -11,7 +11,7 @@ import image10 from '../assets/showcase10.jpg'
 import image11 from '../assets/showcase122.jpg'
 
 
-
+  
 
 export const PortalDetail =[
     {
@@ -26,7 +26,9 @@ export const PortalDetail =[
           </p>
         ),
         duration:'2 hours',
-        button: 'Register Now'
+        button: 'Register Now',
+        
+        
         
       },
       {
@@ -175,3 +177,4 @@ export const PortalEventsDetail = [
     ],
 },
 ]
+

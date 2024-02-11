@@ -6,6 +6,7 @@ const PackageDetail = () => {
   return (
     <div className="bg-[#0b8185]">
     <WrapperContainer> 
+      
       <div className="flex flex-col md:flex-row items-center p-4 py-12 text-[#fcf2de]">
         <div className="w-1/2">
           <span>Events</span>
