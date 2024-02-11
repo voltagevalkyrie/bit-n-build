@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import DensityMediumIcon from "@mui/icons-material/DensityMedium";
 import DiamondIcon from '@mui/icons-material/Diamond';
 import logo from "../assets/logo.png";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";//1
 
 
 
