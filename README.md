@@ -7,7 +7,7 @@ Welcome to JoinPortalPro, a hackathon project aimed at creating a platform to ma
 
 ## Overview
 
-JoinPortalPro is a collaborative effort by Naveen and collaborators Anagha  S Shastri, Vaishnav S, and S N Bhoomika. The project focuses on streamlining the process of organizing and participating in college events.
+JoinPortalPro is a collaborative effort by Naveen and collaborators Anagha S Shastri, Vaishnav S and S N Bhoomika. The project, focuses on streamlining the process of organizing and participating in college events.
 
 ## Features
 
@@ -69,7 +69,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Happy coding! 🚀
+Happy coding!! 🚀
 ```
 
 
