@@ -4,8 +4,11 @@ import Home from "./page/Home";
 import CategoryPage from "./page/CategoryPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ErrorPage } from "./page/ErrorPage";
-import SingleHotelView from "./page/SingleHotelView";
+import SinglePortalView from "./page/SinglePortallView";
 import GlobleCotext from "./contextApi/GlobleContex";
+
+
+
 
 function App() {
   return (
@@ -16,7 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Category" element={<CategoryPage/>}/>
-          <Route path={`/SingleHotelView/:id`} element={<SingleHotelView/>} />
+          <Route path={`/SinglePortalView/:id`} element={<SinglePortalView/>} />
+         
+
           <Route path="*" element={<ErrorPage/>}/>
         </Routes>
       </BrowserRouter>
@@ -25,5 +30,9 @@ function App() {
     </>
   );
 }
+
+
+
+
 
 export default App;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import DensityMediumIcon from "@mui/icons-material/DensityMedium";
 import DiamondIcon from '@mui/icons-material/Diamond';
 import logo from "../assets/logo.png";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";//1
 
 
 
@@ -16,7 +16,7 @@ const Header = () => {
           <ul className="list-none capitalize flex">
             <Link to={"/"}><li className="px-4 relative cursor-pointer">Home</li></Link>
             <Link to={"/Category"}><li className="px-4 relative cursor-pointer">Category</li></Link>
-            {/* <Link to={"/SingleHotelView"}><li className="px-4 relative cursor-pointer">Virtual Tour</li></Link> */}
+           
           </ul>
         </div>
         <div className="w-20 md:w-30">
@@ -27,10 +27,10 @@ const Header = () => {
         <div className="hidden md:block">
           <button className="px-4 p-3 uppercase font-normal">
             <DiamondIcon/>
-            <span className="p-1">Reservation</span>
+            <span className="p-1">Login</span>
           </button>
           <button className="px-4 p-3 bg-[#d27548] uppercase text-white font-normal rounded">
-            book now
+           Profile
           </button>
         </div>
         <div className="block md:hidden px-8 p-4" onClick={() => setIsMenu(!isMenu)}>
