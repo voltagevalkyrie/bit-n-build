@@ -1,4 +1,4 @@
-Certainly! Below is a template for a README file for your GitHub repository. You can modify it according to your specific information and add screenshots later when needed.
+Certainly! Below is a template for a README file for your GitHub repository. You can modify it according to your specific information and add screenshots later when needed for better understanding
 
 ```markdown
 # JoinPortalPro
