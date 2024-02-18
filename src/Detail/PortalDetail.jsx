@@ -25,7 +25,7 @@ export const PortalDetail =[
             Mode: Online
           </p>
         ),
-        duration:'2 hours',
+        //duration:'2 hours',
         button: 'Register Now',
         
         
@@ -116,9 +116,7 @@ export const PortalEventsDetail = [
       images: image7,
       description:
         "Event attendance, Contributions, and Overall involvement. Know your True Potential!",
-      extras: [
-
-      ],
+      
   },
   {
       id: 7,
@@ -131,8 +129,7 @@ export const PortalEventsDetail = [
       images: image8,
       description:
         "A vital organizational tool, offering a user-friendly interface to access, manage, and plan your academic and extracurricular commitments seamlessly.",
-      extras: [
-      ],
+     
   },
   {
       id: 8,
@@ -145,8 +142,7 @@ export const PortalEventsDetail = [
       images: image9,
       description:
         "Showcasing active participants, event attendance, and contributions highlighting students for their engagement and participation in various events.",
-      extras: [
-      ],
+      
   },
   {
       id: 9,
@@ -173,8 +169,7 @@ export const PortalEventsDetail = [
     images: image11,
     description:
       "An intelligent recommendation system that suggests events to users based on their interests, past participation, and club affiliations",
-    extras: [
-    ],
+    
 },
 ]
 
